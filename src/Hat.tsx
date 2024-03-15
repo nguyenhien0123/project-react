@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hat = () => {
-  return <div>Hat</div>;
+  return <div>Hat mdjsd</div>;
 };
 
 export default Hat;
