@@ -8,7 +8,7 @@ import Root from "./feature/Layout/Root";
 import Clothing from "./router/Clothing";
 import Home from "./router/Home";
 import Product from "./router/Product";
-import Hat from "./Hat";
+import Hat from "./router/Hat";
 
 const client = new QueryClient();
 const router = createBrowserRouter([
