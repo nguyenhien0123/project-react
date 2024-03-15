@@ -5,7 +5,6 @@ import {
   Circle,
   Box,
   Image,
-  Badge,
   useColorModeValue,
   Icon,
   chakra,
