@@ -7,7 +7,7 @@ const Home = () => {
   const { data, isPending, isLoading } = useQuery({
     queryKey: ["produsts"],
     queryFn: () =>
-      fetch("http://localhost:3000/products")
+      fetch("https://project-react-wx5w-delta.vercel.app/")
         .then((res) => res.json())
         .then((data) => {
           if (!data) {
