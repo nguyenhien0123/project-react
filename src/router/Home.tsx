@@ -7,7 +7,7 @@ const Home = () => {
   const { data, isPending, isLoading } = useQuery({
     queryKey: ["produsts"],
     queryFn: () =>
-      fetch("https://project-react-wx5w-delta.vercel.app/")
+      fetch("http://localhost:3000/products")
         .then((res) => res.json())
         .then((data) => {
           if (!data) {
@@ -16,6 +16,7 @@ const Home = () => {
           return data;
         }),
   });
+
   return (
     <>
       <Box as="section" position={"relative"} mt={3}>
